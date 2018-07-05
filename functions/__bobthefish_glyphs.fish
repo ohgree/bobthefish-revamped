@@ -9,9 +9,9 @@ function __bobthefish_glyphs -S -d 'Define glyphs used by bobthefish'
   # Additional glyphs
   set -x detached_glyph          \u27A6
   set -x tag_glyph               \u2302
-  set -x nonzero_exit_glyph      \u2718 ' ' # '✘'
-  set -x superuser_glyph         \u26a1 ' ' # '⚡'
-  set -x bg_job_glyph            \u2699 ' ' # '⚙'
+  set -x nonzero_exit_glyph      \u2718' ' # '✘'
+  set -x superuser_glyph         \u26a1' ' # '⚡'
+  set -x bg_job_glyph            \u2699' ' # '⚙'
   set -x hg_glyph                \u263F
 
   # Python glyphs
