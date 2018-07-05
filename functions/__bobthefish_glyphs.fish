@@ -9,9 +9,9 @@ function __bobthefish_glyphs -S -d 'Define glyphs used by bobthefish'
   # Additional glyphs
   set -x detached_glyph          \u27A6
   set -x tag_glyph               \u2302
-  set -x nonzero_exit_glyph      \u2718 ' '
-  set -x superuser_glyph         \u26a1 ' '
-  set -x bg_job_glyph            \u2699 ' '
+  set -x nonzero_exit_glyph      \u2718 ' ' # '✘'
+  set -x superuser_glyph         \u26a1 ' ' # '⚡'
+  set -x bg_job_glyph            \u2699 ' ' # '⚙'
   set -x hg_glyph                \u263F
 
   # Python glyphs
@@ -34,7 +34,7 @@ function __bobthefish_glyphs -S -d 'Define glyphs used by bobthefish'
   set -x vagrant_unknown_glyph   '!'    # strange cases
 
   # Git glyphs
-  set -x git_dirty_glyph      '*'
+  set -x git_dirty_glyph      \u26B9 # '⚹'
   set -x git_staged_glyph     '~'
   set -x git_stashed_glyph    '$'
   set -x git_untracked_glyph  '…'
