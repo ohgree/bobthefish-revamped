@@ -35,8 +35,8 @@ function __bobthefish_glyphs -S -d 'Define glyphs used by bobthefish'
 
   # Git glyphs
   set -x git_dirty_glyph      \u25CF # '●'
-  set -x git_staged_glyph     \u271A # '✚'
-  set -x git_stashed_glyph    \u229F # '⊟'
+  set -x git_staged_glyph     \u229F # '⊟'
+  set -x git_stashed_glyph    \u234A # '⍊'
   set -x git_untracked_glyph  \u2026 # '…'
   set -x git_ahead_glyph      \u2191 # '↑'
   set -x git_behind_glyph     \u2193 # '↓'
